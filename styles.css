@@ -75,13 +75,16 @@ body.dark-theme{
     display: flex;
     align-items: center;
 }
-.change-theme{
+.change-theme,
+.change-language{
     font-size: 1.25rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
+    margin-left: var(--mb-1);
     cursor: pointer;
 }
-.change-theme:hover{
+.change-theme:hover,
+.change-language:hover{
     color: var(--first-color);
 }
 
@@ -866,7 +869,7 @@ font-size: 2rem;
         padding: 0;
     }
     .home_blob{
-        width: 320px;
+        width: 300px;
     }
     .home_social{
         transform: translateX(-6rem);

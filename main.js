@@ -142,3 +142,53 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+let languageButton = document.getElementById('language-button')
+const languageIconTheme = 'uil-english-to-chinese'
+let langArray = {
+    'desc': {
+        'ru': "Мой путь в разработке начался в 2020 году, с тех пор я стараюсь улучшаться в данном направлении каждый день. Я верю, что развитие себя и других главная цель в нашей жизни.",
+        'en': "My path to development began in 2020, since then I have been trying to develop in this way every day. I believe that improving ourselves and others is the main goal of our life."
+    },
+    'aboutDesc': {
+        'ru': "Я начинающий разработчик, изучаю стек React-Redux. Мои главные навыки это - трудолюбиие, проактивность, желание решать трудности и получать новые знания.",
+        'en': "I am a junior developer studying React-Redux technologies. My main soft skills are hard work, proactivity, a desire to solve difficulties and learn new things."
+    },
+    'work1': {
+        'ru': "Моя первая попытка сделать небольшую игру на чистом CSS и HTML. Код выполнен в стиле ООП.",
+        'en': "My first attempt at making a small game with pure CSS and HTML. File Js uses an object oriented model."
+    },
+    'work2': {
+        'ru': "Приложение разработано в React, используется API открытой базы данных фильмов, только функциональные компоненты и хуки. Оформление выполнено с помощью библиотеки Materialize.",
+        'en': "An application developed in React, in the application we use the\n" +
+            "                            OMDb (The Open Movie Database) API, only functional components and hooks. The Materialize\n" +
+            "                            component library is also used."
+    },
+    'work3': {
+        'ru': "Мое первое приложение для электронной коммерции, разработано в React, используется API Fortnite, используются хуки useReducer и useContext. Оформление выполнено с помощью библиотеки Materialize",
+        'en': "My first e-commerce Application developed in React, in the\n" +
+            "                            application we use Fortnite API, hooks useReducer and useContext.The Materialize\n" +
+            "                            component library is also used."
+    }
+}
+function changeLanguage() {
+    let lang = languageButton.lang
+    for (let key in langArray){
+        document.querySelector('.lng-' + key).innerHTML = langArray[key][lang]
+    }
+    (lang === 'en')
+        ? languageButton.lang = 'ru'
+        : languageButton.lang = 'en'
+
+    if (languageButton.classList.contains(languageIconTheme)){
+        languageButton.classList.remove('uil-english-to-chinese')
+        languageButton.classList.add('uil-hindi-to-chinese')
+    }else{
+        languageButton.classList.remove('uil-hindi-to-chinese')
+        languageButton.classList.add('uil-english-to-chinese')
+    }
+
+
+}
+languageButton.addEventListener('click', changeLanguage)
