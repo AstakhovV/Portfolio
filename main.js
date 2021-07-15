@@ -61,7 +61,7 @@ tabs.forEach(tab => {
 //swiper
 let swiper = new Swiper(".portfolio_container", {
     cssMode: true,
-    loop: true,
+    loop: false,
     spaceBetween: 30,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -161,15 +161,20 @@ let langArray = {
     },
     'work2': {
         'ru': "Приложение разработано в React, используется API открытой базы данных фильмов, только функциональные компоненты и хуки. Оформление выполнено с помощью библиотеки Materialize.",
-        'en': "An application developed in React, in the application we use the\n" +
-            "                            OMDb (The Open Movie Database) API, only functional components and hooks. The Materialize\n" +
-            "                            component library is also used."
+        'en': "An application developed in React, in the application we use the OMDb (The Open Movie Database) API, only functional components and hooks. The Materialize component library is also used."
     },
     'work3': {
         'ru': "Мое первое приложение для электронной коммерции, разработано в React, используется API Fortnite, используются хуки useReducer и useContext. Оформление выполнено с помощью библиотеки Materialize",
-        'en': "My first e-commerce Application developed in React, in the\n" +
-            "                            application we use Fortnite API, hooks useReducer and useContext.The Materialize\n" +
-            "                            component library is also used."
+        'en': "My first e-commerce Application developed in React, in the application we use Fortnite API, hooks useReducer and useContext.The Materialize component library is also used."
+    },
+    'work4': {
+        'ru': "Это приложение специально сделано для моей жены, в данном приложении применяется технология React Router. В частности используются хуки useHistory, useParams, useLocation. Оформление - библиотека Materialize",
+        'en': "This app, specially made for my wife, uses a React Router and hooks useHistory, useParams, useLocation. The Materialize component library is also used."
+    },
+    'work5': {
+        'ru': "При разработке данного приложения использовал TypeScript, для управления состоянием - Redux. Две библиотеки для форм: Formik и Redux-Form, а оформление сделано при помощи AntDesign.",
+        'en': "In this App I try to use TypeScript, React-Redux, two different libraries form as Formik and Redux-Form.\n" +
+            "                            Design made with AntDesign."
     }
 }
 function changeLanguage() {
