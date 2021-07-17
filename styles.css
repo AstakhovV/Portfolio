@@ -442,6 +442,12 @@ HOME*/
 .skills_en{
     width: 50%;
 }
+.skills_materialize{
+    width: 35%;
+}
+.skills_ant{
+    width: 20%;
+}
 .skills_close .skills_list{
     height: 0;
     overflow: hidden;
