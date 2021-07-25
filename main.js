@@ -175,6 +175,10 @@ let langArray = {
         'ru': "При разработке данного приложения использовал TypeScript, для управления состоянием - Redux. Две библиотеки для форм: Formik и Redux-Form, а оформление сделано при помощи AntDesign.",
         'en': "In this App I try to use TypeScript, React-Redux, two different libraries form as Formik and Redux-Form.\n" +
             "                            Design made with AntDesign."
+    },
+    'work6': {
+        'ru': "Небольшой сайт, предоставляющий информацию для путешествий на дальнем востоке. Используется чистый JS, SASS.",
+        'en': "A small site providing information for traveling in the Far East. Pure JS, SASS is used."
     }
 }
 function changeLanguage() {
