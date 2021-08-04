@@ -179,6 +179,10 @@ let langArray = {
     'work6': {
         'ru': "Небольшой сайт, предоставляющий информацию для путешествий на дальнем востоке. Используется чистый JS, SASS.",
         'en': "A small site providing information for traveling in the Far East. Pure JS, SASS is used."
+    },
+    'work7': {
+        'ru': "Используется связка React-Redux, дополнительные библиотеки React Router и JSON Server.",
+        'en': "In this App I try to use TypeScript, React-Redux, React Router and JSON Server."
     }
 }
 function changeLanguage() {
