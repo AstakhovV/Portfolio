@@ -330,7 +330,7 @@ HOME*/
 .button--flex{
     display: inline-flex;
     align-items: center;
-
+    gap: 5px;
 }
 /*About*/
 
@@ -368,7 +368,9 @@ HOME*/
     display: flex;
     justify-content: center;
 }
-
+.about_buttons a{
+    margin: 0.5rem;
+}
 /*Skills*/
 .skills_container{
     row-gap: 0;
@@ -433,6 +435,9 @@ HOME*/
 .skills_js{
     width: 65%;
 }
+.skills_ts{
+    width: 35%;
+}
 .skills_react{
     width: 60%;
 }
@@ -440,7 +445,7 @@ HOME*/
     width: 100%;
 }
 .skills_en{
-    width: 50%;
+    width: 60%;
 }
 .skills_materialize{
     width: 35%;
@@ -816,9 +821,6 @@ HOME*/
     }
     .about_description{
         text-align: initial;
-    }
-    .about_info{
-        justify-content: space-between;
     }
     .about_buttons{
         justify-content: initial;

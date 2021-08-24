@@ -148,7 +148,7 @@ let languageButton = document.getElementById('language-button')
 const languageIconTheme = 'uil-english-to-chinese'
 let langArray = {
     'desc': {
-        'ru': "Мой путь в разработке начался в 2020 году, с тех пор я стараюсь улучшаться в данном направлении каждый день. Я верю, что развитие себя и других главная цель в нашей жизни.",
+        'ru': "Мой путь в разработке начался в 2020 году, с тех пор я улучшаюсь в данном направлении каждый день. Я верю, что развитие себя и других главная цель в нашей жизни.",
         'en': "My path to development began in 2020, since then I have been trying to develop in this way every day. I believe that improving ourselves and others is the main goal of our life."
     },
     'aboutDesc': {
@@ -156,7 +156,7 @@ let langArray = {
         'en': "I am a junior developer studying React-Redux technologies. My main soft skills are hard work, proactivity, a desire to solve difficulties and learn new things."
     },
     'work1': {
-        'ru': "Моя первая попытка сделать небольшую игру на чистом CSS и HTML. Код выполнен в стиле ООП.",
+        'ru': "Моя первая небольшая игра на чистом CSS и HTML. Код выполнен в стиле ООП.",
         'en': "My first attempt at making a small game with pure CSS and HTML. File Js uses an object oriented model."
     },
     'work2': {
@@ -168,7 +168,7 @@ let langArray = {
         'en': "My first e-commerce Application developed in React, in the application we use Fortnite API, hooks useReducer and useContext.The Materialize component library is also used."
     },
     'work4': {
-        'ru': "Это приложение специально сделано для моей жены, в данном приложении применяется технология React Router. В частности используются хуки useHistory, useParams, useLocation. Оформление - библиотека Materialize",
+        'ru': "Это приложение специально разработано для моей жены, в данном приложении применяется технология React Router. В частности используются хуки useHistory, useParams, useLocation. Оформление - библиотека Materialize",
         'en': "This app, specially made for my wife, uses a React Router and hooks useHistory, useParams, useLocation. The Materialize component library is also used."
     },
     'work5': {
@@ -181,7 +181,7 @@ let langArray = {
         'en': "A small site providing information for traveling in the Far East. Pure JS, SASS is used."
     },
     'work7': {
-        'ru': "Используется связка React-Redux, дополнительные библиотеки React Router и JSON Server.",
+        'ru': "Используется связка React-Redux и TypeScript, дополнительные библиотеки React Router и JSON Server.",
         'en': "In this App I try to use TypeScript, React-Redux, React Router and JSON Server."
     }
 }
